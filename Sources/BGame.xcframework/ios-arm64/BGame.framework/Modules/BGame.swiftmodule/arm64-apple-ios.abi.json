@@ -1,0 +1,59 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BGame",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BGameController",
+        "printedName": "BGameController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shared",
+            "printedName": "shared()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BGameController",
+                "printedName": "BGame.BGameController",
+                "usr": "s:5BGame0A10ControllerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5BGame0A10ControllerC6sharedACyFZ",
+            "mangledName": "$s5BGame0A10ControllerC6sharedACyFZ",
+            "moduleName": "BGame",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5BGame0A10ControllerC",
+        "mangledName": "$s5BGame0A10ControllerC",
+        "moduleName": "BGame",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

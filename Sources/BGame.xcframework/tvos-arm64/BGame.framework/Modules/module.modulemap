@@ -1,0 +1,11 @@
+framework module BGame {
+  umbrella header "BGame.h"
+
+  export *
+  module * { export * }
+}
+
+module BGame.Swift {
+  header "BGame-Swift.h"
+  requires objc
+}
